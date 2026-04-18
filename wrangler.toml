@@ -1,4 +1,4 @@
-name            = "sheet-api"
+name = "sheetapi-f"
 main            = "src/index.js"
 compatibility_date = "2024-09-23"
 
