@@ -1,0 +1,14 @@
+name            = "sheet-api"
+main            = "src/index.js"
+compatibility_date = "2024-09-23"
+
+# ── Secrets ────────────────────────────────────────────────────
+# Do NOT put real values here.
+# Set them via CLI:
+#   wrangler secret put CLIENT_EMAIL
+#   wrangler secret put PRIVATE_KEY
+#
+# For local dev, create worker/.dev.vars (see .dev.vars.template)
+
+[vars]
+# Non-sensitive vars can go here (none needed currently)

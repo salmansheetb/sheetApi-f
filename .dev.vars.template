@@ -1,0 +1,8 @@
+# ─────────────────────────────────────────────────────────────
+# Cloudflare Worker — local dev secrets
+# Copy this file to worker/.dev.vars and fill in real values.
+# .dev.vars is gitignored and used by `wrangler dev` automatically.
+# ─────────────────────────────────────────────────────────────
+
+CLIENT_EMAIL=your-service-account@your-project.iam.gserviceaccount.com
+PRIVATE_KEY="-----BEGIN PRIVATE KEY-----\nYOUR_KEY_HERE\n-----END PRIVATE KEY-----\n"
